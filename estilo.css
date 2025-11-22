@@ -83,25 +83,16 @@ h2{
 }
 
 nav {
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
-    width: auto;
-    height: auto;
-    line-height: normal;
     background-image: linear-gradient(to right, var(--cor-1),transparent);
     border-radius: 10px;
-    font-size: 10px;
 }
 nav :hover {
-    position: center;
-    background-image: linear-gradient(to right, var(--cor-3),transparent);
-    margin-left: 5px;
-    transform: scale(1,1);
-    border-radius: 5%;
-    box-shadow: 0,5% var(--cor-5);
-    width: 80%;
-    height: 70%;
-    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to right, var(--cor-3),transparent);  
+    border-radius: 3%;
+    box-shadow: 5% var(--cor-5);
+
 }
 div audio {
     font-size: 5px;
